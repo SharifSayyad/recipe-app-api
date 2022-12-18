@@ -9,6 +9,7 @@ from django.contrib.auth.models import (
 )
 
 print('hi')
+print('weleomce')
 class UserManager(BaseUserManager):
     """Manager for users."""
 
