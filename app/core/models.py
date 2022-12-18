@@ -1,5 +1,5 @@
 """
-Database models.
+Database models. use
 """
 from django.db import models
 from django.contrib.auth.models import (
@@ -8,7 +8,7 @@ from django.contrib.auth.models import (
     PermissionsMixin,
 )
 
-
+print('hi')
 class UserManager(BaseUserManager):
     """Manager for users."""
 
